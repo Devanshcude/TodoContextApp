@@ -35,7 +35,7 @@ The app supports full CRUD functionality and ensures a smooth, state-managed exp
 - **React.js** – Frontend UI framework  
 - **Context API** – State management  
 - **JavaScript (ES6+)** – Application logic  
-- **CSS** – Styling  
+- **TailwindCSS** – Styling  
 
 ---
 
