@@ -1,47 +1,12 @@
-# TodoContextApp
+# React + Vite
 
-## TodoContext – A Simple and Efficient Todo Management App
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-TodoContext is a lightweight and intuitive to-do management web application built using React and the Context API. It allows users to efficiently manage daily tasks through an interactive and minimal UI.
+Currently, two official plugins are available:
 
-The app supports full CRUD functionality and ensures a smooth, state-managed experience without relying on external state-management libraries.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
----
+## Expanding the ESLint configuration
 
-## 🚀 Features
-
-- **Add Todos**  
-  Quickly add new tasks using the input bar at the top.
-
-- **Edit / Update Todos**  
-  Modify an existing to-do item at any time.
-
-- **Delete Todos**  
-  Remove tasks that are no longer required with a single click.
-
-- **Mark as Completed**  
-  Toggle the completion status using a checkbox to track progress.
-
-- **Global State Management (Context API)**  
-  All todos are managed globally using React Context, ensuring predictable state updates.
-
-- **Clean and Responsive UI**  
-  A modern, user-friendly interface for seamless task management.
-
----
-
-## 🛠 Tech Stack
-
-- **React.js** – Frontend UI framework  
-- **Context API** – State management  
-- **JavaScript (ES6+)** – Application logic  
-- **TailwindCSS** – Styling  
-
----
-
-## 📌 Project Highlights
-
-- No external state libraries (Redux, Zustand, etc.)
-- Efficient component structure using Context
-- Real-time UI updates with minimal re-renders
-- Beginner-friendly architecture for learning React state management
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
